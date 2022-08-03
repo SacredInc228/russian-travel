@@ -9,3 +9,9 @@
   opacity: 0.8;
   transition: opacity 0.5s;
 }
+
+@media screen and (max-width: 320px) {
+  .place__link {
+    margin-left: 16px;
+  }
+}
