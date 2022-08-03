@@ -1,23 +1,26 @@
 .lead__image {
-  margin: 0;
-  padding: 0;
+  display: block;
+  width: 100%;
   min-height: 615px;
-  max-width: 984px;
+  margin: 64px auto 0;
 }
+
 @media screen and (max-width: 1024px) {
   .lead__image {
     min-height: 580px;
-    max-width: 928px;
+    margin-top: 56px;
   }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 927px) {
   .lead__image {
     min-height: 480px;
-    width: 100%;
   }
 }
-@media screen and (max-width: 320px) {
-  .leaf__image {
+
+@media screen and (max-width: 767px) {
+  .lead__image {
     min-height: 200px;
+    margin: 40px auto 0;
   }
 }
